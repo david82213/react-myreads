@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import BookShelf from './BookShelf'
 
 class ListBooks extends Component {
-  const shelf = [
+  shelf = [
     {
       api: 'currentlyReading',
       name: 'Currently Reading'
